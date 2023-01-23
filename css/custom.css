@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
+header{
+    top:50px;
+    z-index:99;
+}
+.top-bar{
+    position: absolute;
+    z-index: 999;
+    left: 0;
+    padding: 0 25px;
+    right: 0;
+    border-bottom: 1px solid rgb(255 255 255 / 37%);
+}
+
+.top-bar ul.links--top{
+    display: -webkit-box;
+    direction: rtl;
+    margin: 0;
+    float: left;
+}
+
+.top-bar ul.links--top li{
+
+}
+
+.top-bar ul.links--top li a{
+    margin: 10px 0;
+    padding: 0 10px;
+    display: block;
+    border-right: 1px solid rgb(255 255 255 / 37%);
+    color:#fff;
+}
+
+.top-bar ul.links--top li a:hover{
+    color: #f3ae02;
+}
+
+.select-lang{
+    float: right;
+    margin: 10px 30px 0 0;
+}
+
+.select-lang .btn--lang{
+    color:#fff;
+}
+
+.select-lang .dropdown-menu{
+    font-size: 14px;
+    min-width: auto;
+}
+
+
+.phone--mail{
+
+}
+.phone--mail p{
+    color: #fff;
+    float: left;
+    margin: 10px 30px 0 0;
+}
+
+header.header.sticky{
+    top:0;
+}
+.block-reveal img{
+    width:100%;
+}
+.cost-trip{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    background: rgb(255 255 255 / 79%);
+    padding: 5px 15px;
+    border-radius: 35px;
+    border: 3px solid #fff;
+    color: #000;
+}
+
+.score strong {
+    -webkit-border-radius: 15px 10px 15px 3px;
+    -moz-border-radius: 15px 10px 15px 3px;
+    -ms-border-radius: 15px 10px 15px 3px;
+    border-radius: 15px 10px 15px 3px;
+}
+
+
+a.box_feat {
+    padding: 40px 20px 30px 20px;
+}
+
+.blog-post {
+    padding-bottom: 60px;
+    position: relative;
+}
+
+.blog-post .thumb {
+    position: relative;
+    overflow: hidden;
+}
+.blog-post .thumb:before {
+    background-color: rgba(0, 0, 0, 0.25);
+    bottom: 0;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.blog-post .thumb img {
+    transform: scale(1);
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.blog-post:hover .thumb img {
+    transform: scale(1.1);
+}
+
+.blog-post .content {
+    background-color: rgba(0, 0, 0, 0.55);
+    border-top: 3px solid #f3ae02;
+    bottom: 0;
+    left: 0;
+    padding: 15px 15px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.blog-post:hover .content {
+    background-color: rgba(0, 0, 0, 0.72);
+    border-top: 3px solid rgba(255, 102, 0, 0.28);
+}
+.blog-post .content h3 {
+    color: #fff;
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+    line-height: 27px;
+    margin-bottom: 0;
+    padding-top: 0;
+    text-transform: uppercase;
+}
+
+.blog-post .read-btn {
+    background-color: #f3ae02;
+    border-top: 1px solid #eee;
+    bottom: 0;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 10px 0;
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    width: 100%;
+}
+
+.blog-post:hover .read-btn {
+    background-color: #091426;
+    color: #fff;
+}
+
+.blog-post .read-btn i {
+    font-size: 20px;
+    margin-left: 14px;
+    position: relative;
+    top: 1px;
+}
+
+
+.cruise-info {
+    padding: 15px 0 15px 15px;
+}
+
+.cruise-block {
+    border: 1px solid #e6e7e8;
+    margin: 0 0 30px 0;
+}
+
+.cruise-info .cruise-title a {
+    color: #231f20;
+    font-size: 14px;
+    display: block;
+    height: 75px;
+}
+
+.cruise-title p {
+    font-size: 15px;
+    margin-top: 2px;
+    margin-bottom: 5px;
+    color: #808285;
+}
+.cruise-title .cruise-price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #104096;
+}
+
+.main-img {
+    position: relative;
+    overflow: hidden;
+}
+.main-img img {
+    width: 100%;
+    transition: .4s;
+}
+
+.main-block {
+    -moz-transition:all .3s ease-in-out;
+    -o-transition:all .3s ease-in-out;
+    -webkit-transition:all .3s ease-in-out;
+    -ms-transition:all .3s ease-in-out;
+    transition:all .3s ease-in-out;
+}
+
+.main-block:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 0px 16px rgb(0 0 0 / 15%);
+}
+
+.banner {
+    background: url(../img/banner.webp) center center no-repeat;
+    background-size:100% ;
+}
+.banner .wrapper p {
+    font-size: 14px;
+    margin: 15px 0;
+    width: 85%;
+}
+
+.logo--part{
+    border: 1px solid;
+    height: 150px;
+    display: flex;
+}
+.logo--part a{
+    display: flex !important;
+    height: 150px;
+    align-items: center;
+    margin: auto;
+}
+
+.carousel-item{
+    height:100vh;
+}
+.carousel-item img{
+    min-height:100vh;
+    width: auto !important;
+    min-width:100%;
+}
+.carousel-caption{
+    top:30%;
+    bottom: auto;
+}
+
+.rev_slider_wrapper .carousel-caption{
+
+}
+
+.rev_slider_wrapper .carousel-caption h5{
+    font-weight: 600;
+    font-size: 70px;
+    margin: 0 0 30px 0;
+    color: #fff;
+    text-shadow: rgb(0 0 0 / 30%) 0px 0px 20px;
+    text-transform: uppercase;
+}
+
+.rev_slider_wrapper .carousel-caption p{
+    font-size: 22px;
+    text-shadow: rgb(0 0 0 / 30%) 0px 0px 20px;
+}
+
+.rev-slider-mask {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0.4;
+    top: 0;
+    left: 0;
+    background-color: rgb(17 17 17 / 50%);
+}
+
+@media (max-width:768px){
+
+    .rev_slider_wrapper .carousel-caption{
+        left: 5%;
+        right: 5%;
+    }
+
+    .rev_slider_wrapper .carousel-caption h5 {
+        font-size: 28px;
+    }
+
+    .rev_slider_wrapper .carousel-caption p {
+        font-size: 16px;
+    }
+}
